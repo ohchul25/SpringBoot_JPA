@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "c0ad6a56-ea9f-4767-b0ef-4a355c40c572",
+		"name": "API TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "41323399"
+	},
+	"item": [
+		{
+			"name": "상품목록조회",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/product/list"
+			},
+			"response": []
+		},
+		{
+			"name": "장바구니목록조회",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/cart/list/1"
+			},
+			"response": []
+		},
+		{
+			"name": "장바구니 추가",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:8080/cart/1/1/100"
+			},
+			"response": []
+		},
+		{
+			"name": "장바구니 수정",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "localhost:8080/cart/1/1/150"
+			},
+			"response": []
+		},
+		{
+			"name": "장바구니 삭제",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:8080/cart/1/1"
+			},
+			"response": []
+		},
+		{
+			"name": "주문요청",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:8080/order/1"
+			},
+			"response": []
+		},
+		{
+			"name": "결제요청",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "localhost:8080/payment/1"
+			},
+			"response": []
+		}
+	]
+}
